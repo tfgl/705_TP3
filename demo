@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rmiregistery &
+java -jar server.jar 54000 &&
+java -jar client.jar 54000
